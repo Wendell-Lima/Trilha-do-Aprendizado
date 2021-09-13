@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tags variadas</title>
-        <style>
+        <!--<style> tag de borda
             table, th, td 
             {
               border:1px solid black;
             }
-        </style>
+        </style>-->
     </head>
     <body>
 
@@ -63,21 +63,21 @@
                 <br>
                 Agora para definir os elementos que estão dentro de uma tabela usamos as seguintes tags:
                 <br><br>
-                <b>&lt;tr&gt;</b> --> define uma linha da tabela;
+                <b>&lt;tr&gt;</b> --> define uma <b>linha</b> da tabela;
                 <br>
-                <b>&lt;th&gt;</b> --> define um cabeçalho da tabela;
+                <b>&lt;th&gt;</b> --> define um <b>cabeçalho</b> da tabela;
                 <br>
-                <b>&lt;td&gt;</b> --> define uma célula da tabela;
+                <b>&lt;td&gt;</b> --> define uma <b>célula</b> da tabela;
                 <br><br>
-                Exemplo de tabela:
-                    <table style="width:20%;">
-                        <tr>
-                            <th>Meses</th>
+                <caption>Exemplo de tabela:</caption>   
+                    <table border="5" cellspacing="10" cellpadding="10">
+                        <tr> 
+                            <th>Meses</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
                             <th>Gastos</th>
                         </tr>
                         <tr>
-                            <td>Janeiro</td>
-                            <td>R$:100</td>
+                            <td rowspan="1" colspan="1">Janeiro</td> <!-- ROWSPAN MESCLAR COLUNA-->
+                            <td> R$:100 </td> <!-- COLSPAN MESCLAR LINHAS-->
                         </tr>
                         <tr>
                             <td>Fevereiro</td>
