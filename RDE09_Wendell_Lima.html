@@ -17,11 +17,11 @@
 
         <h2>Tag &lt;<i>iframe</i>&gt;</h2>
             <p>
-            Usada para incorporar outro documento (como site, áudio ou vídeo) ao arquivo HTML.
-            <h3>Sintaxe:</h3>
-                <b>&lt;iframe src="URL" height="altura em pixels" width="largura em pixels" title="título"&gt;&lt;/iframe&gt;</b>
-                <br>
-                <img src="img/iframe.png" width="49%" height="49%">
+                Usada para incorporar outro documento (como site, áudio ou vídeo) ao arquivo HTML.
+                <h3>Sintaxe:</h3>
+                    <b>&lt;iframe src="URL" height="altura em pixels" width="largura em pixels" title="título"&gt;&lt;/iframe&gt;</b>
+                    <br>
+                    <img src="img/iframe.png" width="49%" height="49%">
             </p>
 
             <h3>Anexando outro site:</h3>
@@ -35,6 +35,50 @@
 
             <h3>Anexando vídeo ao site:</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/dqE50LUi1xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Tag &lt;<i>video</i>&gt;</h2>
+            <p>
+                Podemos também fazer <b>inserção de <ins>vídeos</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
+            </p>
+            <h3>Sintaxe:</h3>
+            <img src="img/sin_video.png" width="45%" height="45%">
+            <br>
+            <video poster="vídeo/Bike.jpg" height="45%" width="45%" controls> <!--CONTROLS para play,volume-->
+                <source src="vídeo/Bike.mp4"  type="video/mp4"> 
+                <source src="vídeo/Bike.webm" type="video/webm">
+                <source src="vídeo/Bike.ogv"  type="video/ogv">
+
+                <!-- O HTML5 NOS DÁ A POSSIBILIDADE DE CARREGAR OUTROS VÍDEOS CASO O PRIMEIRO FALHE.-->
+            </video>
+        
+        <h2>Tag &lt;<i>audio</i>&gt;</h2>
+            <p>
+                Assim como vídeos podemos também fazer <b>inserção de <ins>áudios</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
+                <br>
+                Existe uma <b><ins>biblioteca do youtube</ins> com áudios sem direitos autorais</b>.
+            </p>
+            <h3>Sintaxe:</h3>
+            <img src="img/sin_audio.png" width="40%" height="40%">
+            <br>
+            <audio preload="metadata" controls>
+                <source src="áudio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                <source src="áudio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                <source src="áudio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+
+                <!-- WAV é um tipo de arquivo sem compactação (beeem grande) -->
+            </audio>
+        
+        <h2>Tag &lt;<i>picture</i>&gt;</h2>
+            <p>
+                Esta tag possui a função de <b>agrupar várias imagens</b>.
+            </p>
+            <picture>
+                <source media="(max-widht:500px)"  srcset="img/bike_110.jpg"> 
+                <source media="(max-widht:700px)"  srcset="img/bike_320.jpg">
+                <source media="(max-widht:1000px)" srcset="img/bike_640.jpg">
+                <!-- <source media> SERVE PARA REDIMENSIONAR A IMAGEM CASO O DISPOSITIVO TENHA UMA TELA PEQUENA, CHAMA UMA OUTRA IMAGEM COM RESOLUÇÃO MENOR.-->
+                <img src="img/bike_full.jpg" alt="Mtb por-do-sol">
+            </picture>
 
     </body>
     </html>
