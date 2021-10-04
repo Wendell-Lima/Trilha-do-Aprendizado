@@ -1,0 +1,17 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background: lightsteelblue;
+    color:rgb(255, 145, 0);
+    text-align: center;
+
+}
+h2{
+    color:darkgray;
+}
+table, th, td 
+{
+    border:2px solid black;
+}

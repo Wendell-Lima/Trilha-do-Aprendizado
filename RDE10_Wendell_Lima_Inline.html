@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <style>
+            table, th, td 
+            {
+              border:2px solid black;
+            }
+        </style>
+    </head>
+    <body style="background-color: rgb(196, 190, 229); font-family: Arial, Helvetica, sans-serif;">
+        <!-- COLOR: define a cor da letra, BACKGROUND-COLOR: define a cor de fundo, TEXT-ALIGN: define em que posição o texto deve ficar.-->
+
+        <h1 style="color:rgb(3, 3, 145); background-color:rgb(212, 77, 206); text-align:center;">Cascading Style Sheets (CSS)</h1>
+
+        <!-- FONT-SIZE: define o tamanho da fonte da letra-->
+        <h2 style="color: rebeccapurple;">Definição</h2>
+        <p>
+            <b>Folhas de Estilo em Cascata</b> - possui como objetivo <b>realizar a estilização</b> de conteúdo de documentos HTML. Podem definir <b>cores, fontes, espaçamento</b> dentre outros.
+        </p>
+
+        <h2 style="color:purple;">Componentes</h2>
+        <ul>      
+                <li><b>Seletores</b> - seleciona elementos HTML com base no nome do elemento ao qual o estilo será aplicado.</li>
+                <br>
+                <li><b>Propriedades</b> - o aspecto específico do elemento que você quer usar como estilo.</li>
+                <br>
+                <li><b>Valores</b> - a configuração aplicada ao atributo.</li>
+        </ul>
+
+        <h2 style="color:rebeccapurple">Sintaxe:</h2>
+        <p>
+            <code>seletor{
+                    <br>
+                ㅤㅤpropriedades: valor; /*comentário*/
+                    <br>
+                ㅤㅤpropriedades-subpropriedades: valor;
+                    <br>
+                }</code>
+            <br><br>
+            <br>
+            <code>p{
+            <br>
+            ㅤ  color:blue;
+                <br>
+            ㅤ  text-align: center;
+                <br>
+            }</code>
+
+        </p>    
+        <img src="img/sin_css.png" widht="100" height="100">
+        <img src="img/sin_p.png" widht="99" height="99">
+
+        <h2 style="color:purple">Formas de Utilizar CSS</h2>
+        <p>
+            Existe uma ordem seguida pelos navegadores: <br>
+            <table>
+                <tr>
+                    <th><strong>INLINE => INCORPORADO => EXTERNO.</strong></th>
+                </tr>
+            </table>
+        </p>
+        <table>
+            <tr> 
+                <th colspan="2" style="color:deeppink">Formas de Utilizar CSS</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
+            </tr>
+            <tr>
+                <th rowspan="2" colspan="1" style="color:rgb(179, 0, 255);"><strong>Inline</strong></th><!-- ROWSPAN MESCLAR COLUNA--> <!-- COLSPAN MESCLAR LINHAS-->
+                <td>Os códigos CSS são definidos <b>dentro de uma tag HTML.</b>
+                <br>
+                Afetam somente a tag em que foi definida.
+                </td>              
+            </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            <tr>
+                <th rowspan="2" colspan="1" style="color:rgb(179, 0, 255);"><strong>Incorporado</strong></th>
+                <td>Os códigos CSS são definidos no cabeçalho, <b>dentro de uma tag head.</b>
+                <br>
+                Afetam somente o documento em que foi definido.
+                </td>
+            </tr>
+            
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            <tr>
+                <th rowspan="2" colspan="1" style="color:rgb(179, 0, 255);"><strong>Externo</strong></th>
+                <td>Os códigos CSS são definidos <b>em um arquivo externo.</b>
+                <br>
+                Afetam todos os documentos que estão linkados ao CSS.
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
