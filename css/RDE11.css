@@ -1,4 +1,97 @@
 div{
-    background-color: purple;
+    background-color:rgb(68, 10, 109);
     margin:10px;
+}
+span{
+    font-weight:bold;
+}
+body{
+    color: floralwhite;
+    background-color:rgb(194, 70, 99);
+}
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 231, 14);
+    background-color: rgb(18, 144, 202);
+    border: 2.5px solid yellow;
+    height:45px;
+    
+}
+div.agrupamento{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(56, 15, 85);
+   border: 2px solid whitesmoke;
+   margin: 20px;
+   padding: 12px;   /*Padding = Acolchoamento é o espaçamento entre o bloco e o texto PERFEITOOOO*/ 
+}
+.bloco1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 31, 8);
+    border: 1.5px solid whitesmoke;
+    margin:10px;
+    padding:5px;
+    width:60px;
+    height:20px;
+}
+.bloco2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 8, 148);
+    border: 1.5px solid whitesmoke;
+    margin:10px;
+    padding:5px;
+    width:100px;
+    height:20px;
+}
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(68, 10, 109);
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    
+}
+/*HOVER serve para quando passar o mouse ele mudar a cor!!!
+Bom para usar em LINKS PERSONALIZADOS!!!
+*/
+/*.personalizado:hover{ 
+    color: rgb(255, 235, 59);
+    background-color: rgba(77, 2, 43, 0.616);
+    margin:20px;
+    padding: 20px;
+}*/
+.links{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(26, 51, 134);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    width: 75px;
+}
+a:link{
+    color: wheat;
+    text-decoration: wheat;
+}
+a:hover{
+    color: red;
+    
+}
+a:visited{
+    font-style:italic;
+    color: rgb(245, 91, 225);
+}
+a:active{
+    color: greenyellow;
+}
+.pseudo > span{
+    display: none;
+}
+.pseudo:hover >span{
+    display:block
+}
+h3::selection{ /*OLHAR NO W3SCHOOLS OUTRAS FUNCIONALIDADES DO :: !!*/
+    color:red;
+    background-color: yellow;
 }
