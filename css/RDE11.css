@@ -99,6 +99,6 @@ a:active{
     display:block
 }
 h3::selection{ /*OLHAR NO W3SCHOOLS OUTRAS FUNCIONALIDADES DO :: !!*/
-    color:red;
+    color:rgb(87, 228, 26);
     background-color: yellow;
 }

@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(48, 48, 48);
+}
+.p1{
+    background-color: rgb(247, 208, 208);
+    padding: 10px 15px;
+    margin:100px;
+}
+.p2{
+    background-color: rgb(228, 208, 247);
+    padding: 10px 15px;
+    margin-top:100px;    
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.p3{
+    background-color: rgb(243, 247, 208);
+    padding: 10px 15px;
+    margin-top:100px;    
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.link{
+    background-color: rgb(169, 168, 170);
+    margin: 100px;
+    color: white;
+    position: relative;
+    left: 100px;
+    display: inline;
+}
+a:active{ 
+    color: red;
+}
