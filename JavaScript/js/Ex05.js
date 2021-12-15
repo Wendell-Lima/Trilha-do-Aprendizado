@@ -32,4 +32,5 @@ d2 = prompt("Digite o segundo valor: ");
 
 div = parseFloat(d1)/parseFloat(d2);
 
-alert("A divisão é: "+div   );
+alert("A divisão é: "+div);
+
