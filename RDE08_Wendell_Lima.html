@@ -11,198 +11,235 @@
               border:1px solid black;
             }
         </style>-->
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
+        <header> 
+            <div class="logo">
+               Na Trilha do Aprendizado
+            </div>
+            <nav>
+                <div class="navegacao"> 
+                        <a href="#conteudo">Conteúdo</a>
+                        <a href="#projeto">O Projeto</a>
+                        <a href="index.html">Home</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="b1">
+            <h1>Tags Variadas</h1>
+            <h2>Sumário</h2>
+            <ol type="a">
+                <li>
+                    <a href="#table">Table;</a>
+                </li>
+                <li>
+                    <a href="#del">Del e Ins;</a>
+                </li>
+                <li>
+                    <a href="#sub">Sub e Sub;</a>
+                </li>
+                <li>
+                    <a href="#blockquote">Blockquote e Q;</a>
+                </li>
+                <li>
+                    <a href="#abbr">Abbr;</a>
+                </li>
+                <li>
+                    <a href="#address">Address;</a>
+                </li>
+                <li>
+                    <a href="#cite">Cite;</a>
+                </li>
+                <li>
+                    <a href="#bdo">Bdo;</a>
+                </li>
+                <li>
+                    <a href="#code">Code;</a>
+                </li>
+                <li>
+                    <a href="#pre">Pre;</a>
+                </li>
+                <li>
+                    <a href="#kbd">Kbd;</a>
+                </li>
+            </ol>
+        </div>
 
-        <h1>Tags Variadas</h1>
+        <div class="b4">
+            <h2 id="table">Table</h2>
+                <p>
+                    Tabelas nos permitem organizar dados em linhas e colunas (uma ótima opção para organização).
+                    <br>
+                    Possui uma estrutura parecida com a de listas.
+                    <br>
+                    Tag principal usada para definir tabelas: <b>&lt;table&gt;</b>
+                    <br>
+                    Agora para definir os elementos que estão dentro de uma tabela usamos as seguintes tags:
+                    <br><br>
+                    <b>&lt;tr&gt;</b> --> define uma <b>linha</b> da tabela;
+                    <br>
+                    <b>&lt;th&gt;</b> --> define um <b>cabeçalho</b> da tabela;
+                    <br>
+                    <b>&lt;td&gt;</b> --> define uma <b>célula</b> da tabela;
+                    <br><br>
+                    <caption>Exemplo de tabela:</caption>
+                        <table border="5" cellspacing="10" cellpadding="10">
+                            <tr>
+                                <th>Meses</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
+                                <th>Gastos</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="1" colspan="1">Janeiro</td> <!-- ROWSPAN MESCLAR COLUNA-->
+                                <td> R$:100 </td> <!-- COLSPAN MESCLAR LINHAS-->
+                            </tr>
+                            <tr>
+                                <td>Fevereiro</td>
+                                <td>R$:300</td>
+                            </tr>
+                            <tr>
+                                <td>Março</td>
+                                <td>R$:900</td>
+                            </tr>
+                            <tr>
+                                <td>Abril</td>
+                                <td>R$:400</td>
+                            </tr>
+                        </table>
+                </p>
+        </div>
 
-        <h2>Sumário</h2>
-        <ol type="a">
-            <li>
-                <a href="#table">Table;</a>
-            </li>    
-            <li>
-                <a href="#del">Del e Ins;</a>
-            </li> 
-            <li>
-                <a href="#sub">Sub e Sub;</a>
-            </li>  
-            <li>
-                <a href="#blockquote">Blockquote e Q;</a>
-            </li> 
-            <li>
-                <a href="#abbr">Abbr;</a>
-            </li>
-            <li>
-                <a href="#address">Address;</a>
-            </li>
-            <li>
-                <a href="#cite">Cite;</a>
-            </li>
-            <li>
-                <a href="#bdo">Bdo;</a>
-            </li>
-            <li>
-                <a href="#code">Code;</a>
-            </li>
-            <li>
-                <a href="#pre">Pre;</a>
-            </li>
-            <li>
-                <a href="#kbd">Kbd;</a>
-            </li>
-        </ol>
+        <div class="b1">
+            <h2 id="del">Del e Ins</h2>
+                <p>
+                    A tag <b>&lt;del&gt;</b> permite mostrar que há uma frase/palavra que foi retirada do texto por meio do tachamento.
+                    <br>
+                    Já a tag <b>&lt;ins&gt;</b> permite mostrar que há uma frase/palavra que foi inserida no texto por meio do sublinhado.
+                    <br><br>
+                    Por exemplo na frase: "Eu comprei duas maças".
+                    <br>
+                    Irei retirar a palavra duas e trocar por cinco.
+                    <br>
+                    "Eu comprei <b><del>duas</del> <ins>cinco</ins></b> maças"
+                    <br><br>
+                    Pode ser usado também como formatador de texto, para tachar e sublinhar.
+                </p>
+        </div>
 
-        <h2 id="table">Table</h2>
-            <p>
-                Tabelas nos permitem organizar dados em linhas e colunas (uma ótima opção para organização).
-                <br>
-                Possui uma estrutura parecida com a de listas.
-                <br>
-                Tag principal usada para definir tabelas: <b>&lt;table&gt;</b>
-                <br>
-                Agora para definir os elementos que estão dentro de uma tabela usamos as seguintes tags:
-                <br><br>
-                <b>&lt;tr&gt;</b> --> define uma <b>linha</b> da tabela;
-                <br>
-                <b>&lt;th&gt;</b> --> define um <b>cabeçalho</b> da tabela;
-                <br>
-                <b>&lt;td&gt;</b> --> define uma <b>célula</b> da tabela;
-                <br><br>
-                <caption>Exemplo de tabela:</caption>   
-                    <table border="5" cellspacing="10" cellpadding="10">
-                        <tr> 
-                            <th>Meses</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
-                            <th>Gastos</th>
-                        </tr>
-                        <tr>
-                            <td rowspan="1" colspan="1">Janeiro</td> <!-- ROWSPAN MESCLAR COLUNA-->
-                            <td> R$:100 </td> <!-- COLSPAN MESCLAR LINHAS-->
-                        </tr>
-                        <tr>
-                            <td>Fevereiro</td>
-                            <td>R$:300</td>
-                        </tr>
-                        <tr>
-                            <td>Março</td>
-                            <td>R$:900</td>
-                        </tr>
-                        <tr>
-                            <td>Abril</td>
-                            <td>R$:400</td>
-                        </tr>
-                    </table>       
-            </p>
+        <div class="b4">
+            <h2 id="sub">Sub e Sup</h2>
+                <p>
+                    Usamos a tag <b>&lt;sub&gt;</b> para definir um texto <ins>subscrito</ins>.
+                    <br>
+                    E para um texto <ins>sobrescrito</ins>, usamos a tag <b>&lt;sup&gt;.</b>
+                    <br>
+                    São bem úteis para fórmulas matemáticas e químicas.
+                    <br><br>
+                    Exemplo de texto subscrito: "Este texto ficara subscrito <sub>agora</sub>".
+                    <br><br>
+                    Exemplo de texto sobrescrito: "Fórmula de Pitagoras: "a<sup>2</sup>=b<sup>2</sup>+c<sup>2</sup>"
+                </p>
+        </div>
 
-        <h2 id="del">Del e Ins</h2>
-            <p>
-                A tag <b>&lt;del&gt;</b> permite mostrar que há uma frase/palavra que foi retirada do texto por meio do tachamento.
-                <br>
-                Já a tag <b>&lt;ins&gt;</b> permite mostrar que há uma frase/palavra que foi inserida no texto por meio do sublinhado.
-                <br><br>
-                Por exemplo na frase: "Eu comprei duas maças".
-                <br>
-                Irei retirar a palavra duas e trocar por cinco.
-                <br>
-                "Eu comprei <b><del>duas</del> <ins>cinco</ins></b> maças"
-                <br><br>
-                Pode ser usado também como formatador de texto, para tachar e sublinhar.
-            </p>
-
-        <h2 id="sub">Sub e Sup</h2>
-            <p>
-                Usamos a tag <b>&lt;sub&gt;</b> para definir um texto <ins>subscrito</ins>.
-                <br>
-                E para um texto <ins>sobrescrito</ins>, usamos a tag <b>&lt;sup&gt;.</b>
-                <br>
-                São bem úteis para fórmulas matemáticas e químicas.
-                <br><br>
-                Exemplo de texto subscrito: "Este texto ficara subscrito <sub>agora</sub>".
-                <br><br>
-                Exemplo de texto sobrescrito: "Fórmula de Pitagoras: "a<sup>2</sup>=b<sup>2</sup>+c<sup>2</sup>"
-            </p>
-
-        <h2 id="blockquote">Blockquote e Q</h2>
-            <p>
-                A tag <b>&lt;blockquote&gt;</b> é usada para fazer citações de outras fontes.
-                <br>
-                Já a tag <b>&lt;q&gt;</b> é usada para fazer uma curta citação.
-                <br><br>
-                Por exemplo, uma longa citação do Bob Marley:
-                    <blockquote cite="https://www.pensador.com/frases_de_bob_marley/">
-                        Difícil não é lutar por aquilo que se quer, e sim desistir daquilo que se mais ama.<br>
-                        Eu desisti. Mas não pense que foi por não ter coragem de lutar, e sim por não ter mais condições de sofrer.
-                    </blockquote>
-                Agora uma citação curta, de uma das falas de Braum: <q>Mamãe sempre dizia, 'Não perca! Quanto mais escura a noite... Mais brilhante as estrelas'</q>
-            </p>
-        <h2 id="abbr">Abbr</h2>
-            <p>
-                A tag <b>&lt;abbr&gt;</b> define uma abreviatura ou acrônimo.
-                <br>
-                Por exemplo:
-                <br>
-                A <abbr title="Organização Mundial da Saúde"> OMS </abbr> foi fundada em 7 de abril 1948.
-            </p>
-        <h2 id="address">Address</h2>
-            <p>
-                A tag <b>&lt;address&gt;</b> define as informações de contato do autor/proprietário de um documento ou artigo.
-                <br><br>
-                As informações de contato podem ser o endereço de e-mail, URL, endereço físico, número de telefone, mídias sociais, etc.
-                <br><br>
-                O texto elemento geralmente é colocado em itálico e os navegadores sempre adicionarão uma quebra de linha antes e depois do elemento.
-                <br><br>
-                Por exemplo:
-                <br>
-                <address>
-                    Escrito por: <a href="mailto:wendelllima00@gmail.com">Wendell Lima</a>
-                </address>
-            </p>
-        <h2 id="cite">Cite</h2>
-            <p>
-                A tag <b>&lt;cite&gt;</b> define o título de um trabalho artístico (um livro, um poema, uma música, um filme, uma pintura, uma escultura, etc.).
-                <br>
-                Como exemplo:
-                <br>
-                <img src="https://i0.wp.com/www.historiadasartes.com/wp-content/uploads/2016/12/m_obra-1.jpg?fit=500%2C355&ssl=1" width="35%" height="35%">
-                <br>
-                <cite>Os Comedores de Batata</cite> feito por Vicent Van Gogh.
-            </p>
-        <h2 id="bdo">Bdo</h2>
-            <p>
-                A tag <b>&lt;bdo&gt;</b> é usada para mudar o sentido do texto.
-                <br>
-                Por exemplo a frase: "O Papa é Pop".
-                <br>
-                Fica: <bdo dir="rtl">"O Papa é Pop"</bdo>
-            </p>     
-        <h2 id="code">Code</h2>
-            <p>
-                A tag <b>&lt;code&gt;</b> é usada para mostrar um pedaço de código.
-                <br>
-                Por exemplo: definir uma variável como <b><code>int</code></b> a torna suscetível a apenas numeros inteiros. 
-            </p>
-        <h2 id="pre">Pre</h2>
-            <p>
-                O texto inserido dentro da tag <b>&lt;pre&gt;</b> é exibido em uma fonte de largura fixa, preservando os espaços e as quebras de linha. 
-                <br>
-                <b>O texto será exibido exatamente como escrito no código-fonte HTML.</b>
-                <br>
-                Por exemplo: <pre> Agora não preciso mais usar a tag &lt;br&gt; para pular linhas, pois essa tag faz isso por si só. Assim como todos os espaços a             mais que eu der, ela vai mostrar. </pre>
-            </p>
-        <h2 id="kbd">Kbd</h2>
-            <p>
-                A tag <b>&lt;kbd&gt;</b> é usada para definir a tecla que deve ser pressionada no teclado para gerar certa ação.
-                <br>
-                O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.
-                <br><br>
-                Exemplo:
-                <br><br>
-                Pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar o texto.
-                <br>
-                Pressione <kbd>Ctrl</kbd> + <kbd>V</kbd> para colar o texto.
-                <br>
-                Pressione <kbd>Ctrl</kbd> + <kbd>X</kbd> para recortar o texto.
-            </p>    
+        <div class="b1"> 
+            <h2 id="blockquote">Blockquote e Q</h2>
+                <p>
+                    A tag <b>&lt;blockquote&gt;</b> é usada para fazer citações de outras fontes.
+                    <br>
+                    Já a tag <b>&lt;q&gt;</b> é usada para fazer uma curta citação.
+                    <br><br>
+                    Por exemplo, uma longa citação do Bob Marley:
+                        <blockquote cite="https://www.pensador.com/frases_de_bob_marley/">
+                            Difícil não é lutar por aquilo que se quer, e sim desistir daquilo que se mais ama.<br>
+                            Eu desisti. Mas não pense que foi por não ter coragem de lutar, e sim por não ter mais condições de sofrer.
+                        </blockquote>
+                    Agora uma citação curta, de uma das falas de Braum: <q>Mamãe sempre dizia, 'Não perca! Quanto mais escura a noite... Mais brilhante as estrelas'</q>
+                </p>
+        </div>
+        <div class="b4">
+            <h2 id="abbr">Abbr</h2>
+                <p>
+                    A tag <b>&lt;abbr&gt;</b> define uma abreviatura ou acrônimo.
+                    <br>
+                    Por exemplo:
+                    <br>
+                    A <abbr title="Organização Mundial da Saúde"> OMS </abbr> foi fundada em 7 de abril 1948.
+                </p>
+        </div>
+        <div class="b1">
+            <h2 id="address">Address</h2>
+                <p>
+                    A tag <b>&lt;address&gt;</b> define as informações de contato do autor/proprietário de um documento ou artigo.
+                    <br><br>
+                    As informações de contato podem ser o endereço de e-mail, URL, endereço físico, número de telefone, mídias sociais, etc.
+                    <br><br>
+                    O texto elemento geralmente é colocado em itálico e os navegadores sempre adicionarão uma quebra de linha antes e depois do elemento.
+                    <br><br>
+                    Por exemplo:
+                    <br>
+                    <address>
+                        Escrito por: <a href="mailto:wendelllima00@gmail.com">Wendell Lima</a>
+                    </address>
+                </p>
+        </div>
+        <div class="b4">
+            <h2 id="cite">Cite</h2>
+                <p>
+                    A tag <b>&lt;cite&gt;</b> define o título de um trabalho artístico (um livro, um poema, uma música, um filme, uma pintura, uma escultura, etc.).
+                    <br>
+                    Como exemplo:
+                    <br>
+                    <img src="https://i0.wp.com/www.historiadasartes.com/wp-content/uploads/2016/12/m_obra-1.jpg?fit=500%2C355&ssl=1" width="35%" height="35%">
+                    <br>
+                    <cite>Os Comedores de Batata</cite> feito por Vicent Van Gogh.
+                </p>
+        </div>
+        <div class="b1">
+            <h2 id="bdo">Bdo</h2>
+                <p>
+                    A tag <b>&lt;bdo&gt;</b> é usada para mudar o sentido do texto.
+                    <br>
+                    Por exemplo a frase: "O Papa é Pop".
+                    <br>
+                    Fica: <bdo dir="rtl">"O Papa é Pop"</bdo>
+                </p>
+        </div> 
+        <div class="b4">
+            <h2 id="code">Code</h2>
+                <p>
+                    A tag <b>&lt;code&gt;</b> é usada para mostrar um pedaço de código.
+                    <br>
+                    Por exemplo: definir uma variável como <b><code>int</code></b> a torna suscetível a apenas numeros inteiros.
+                </p>
+        </div>
+        <div class="b1">
+            <h2 id="pre">Pre</h2>
+                <p>
+                    O texto inserido dentro da tag <b>&lt;pre&gt;</b> é exibido em uma fonte de largura fixa, preservando os espaços e as quebras de linha.
+                    <br>
+                    <b>O texto será exibido exatamente como escrito no código-fonte HTML.</b>
+                    <br>
+                    Por exemplo: <pre> Agora não preciso mais usar a tag &lt;br&gt; para pular linhas, pois essa tag faz isso por si só. Assim como todos os espaços a 
+                    mais que eu der, ela vai mostrar. </pre>
+                </p>
+        </div>
+        <div class="b4">
+            <h2 id="kbd">Kbd</h2>
+                <p>
+                    A tag <b>&lt;kbd&gt;</b> é usada para definir a tecla que deve ser pressionada no teclado para gerar certa ação.
+                    <br>
+                    O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.
+                    <br><br>
+                    Exemplo:
+                    <br><br>
+                    Pressione <kbd>Ctrl</kbd> + <kbd>C</kbd> para copiar o texto.
+                    <br>
+                    Pressione <kbd>Ctrl</kbd> + <kbd>V</kbd> para colar o texto.
+                    <br>
+                    Pressione <kbd>Ctrl</kbd> + <kbd>X</kbd> para recortar o texto.
+                </p>
+        </div> 
 
     </body>
 </html>

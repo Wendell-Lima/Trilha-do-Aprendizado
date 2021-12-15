@@ -7,112 +7,131 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Multimídias</title>
         <link rel="icon" href="img/multimedia-play-button-symbol-on-monitor-screen_icon-icons.com_74111.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <h1>Incorporando Multimídias ao Site</h1>
+        <header> 
+            <div class="logo">
+               Na Trilha do Aprendizado
+            </div>
+            <nav>
+                <div class="navegacao"> 
+                        <a href="#conteudo">Conteúdo</a>
+                        <a href="#projeto">O Projeto</a>
+                        <a href="index.html">Home</a>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="b1">
+            <h1>Incorporando Multimídias ao Site</h1>
+            <h2>Sumário</h2>
+            <ol type="1">
+                <li>
+                    <a href="#que">O que é Multimídia;</a>
+                </li>
+                <li>
+                    <a href="#frame">Tag Iframe;</a>
+                </li>
+                <li>
+                    <a href="#site">Anexando outro Site;</a>
+                </li>
+                <li>
+                    <a href="#audio">Anexando um Áudio;</a>
+                </li>
+                <li>
+                    <a href="#video">Anexando um Vídeo;</a>
+                </li>
+                <li>
+                    <a href="#tagvid">Tag &lt;video&gt;;</a>
+                </li>
+                <li>
+                    <a href="#tagaud">Tag &lt;audio&gt;;</a>
+                </li>
+                <li>
+                    <a href="#tagpic">Tag &lt;picture&gt;;</a>
+                </li>
+            </ol>
+        </div>
 
-        <h2>Sumário</h2>
+        <div class="b4">
+            <h2 id="que">O que é Multimídia?</h2>
+                <p>
+                    É uma forma de comunicação que combina diferentes formas de conteúdo, <b>como texto, áudio, imagens, animações ou vídeos</b> em uma única apresentação
+                </p>
+        </div>
 
-        <ol type="1">
-            <li>
-                <a href="#que">O que é Multimídia;</a>
-            </li>
-            <li>
-                <a href="#frame">Tag Iframe;</a>
-            </li>  
-            <li>
-                <a href="#site">Anexando outro Site;</a>
-            </li>    
-            <li>
-                <a href="#audio">Anexando um Áudio;</a>
-            </li>    
-            <li>
-                <a href="#video">Anexando um Vídeo;</a>
-            </li>
-            <li>
-                <a href="#tagvid">Tag &lt;video&gt;;</a>
-            </li>
-            <li>
-                <a href="#tagaud">Tag &lt;audio&gt;;</a>
-            </li>
-            <li>
-                <a href="#tagpic">Tag &lt;picture&gt;;</a>
-            </li>          
-        </ol>
+        <div class="b1">
+            <h2 id="frame">Tag &lt;<i>iframe</i>&gt;</h2>
+                <p>
+                    Usada para incorporar outro documento (como site, áudio ou vídeo) ao arquivo HTML.
+                    <h3>Sintaxe:</h3>
+                        <b>&lt;iframe src="URL" height="altura em pixels" width="largura em pixels" title="título"&gt;&lt;/iframe&gt;</b>
+                        <br>
+                        <img src="img/iframe.png" width="49%" height="49%">
+                </p>
+                <h3 id="site">Anexando outro site:</h3>
+                    <iframe src="https://irati.ifpr.edu.br" height="300" widht="300"></iframe>
+                <h3 id="audio">Anexando áudio ao site:</h3>
+                <p>
+                    Muito útil para <b>podcasts</b>!!!
+                </p>
+                <iframe src="https://open.spotify.com/embed/track/7BECNKQnIHCREUGA0Zty7g" width="300" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <h3 id="video">Anexando vídeo ao site:</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dqE50LUi1xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
-        <h2 id="que">O que é Multimídia?</h2>
-            <p>
-                É uma forma de comunicação que combina diferentes formas de conteúdo, <b>como texto, áudio, imagens, animações ou vídeos</b> em uma única apresentação
-            </p>
-
-        <h2 id="frame">Tag &lt;<i>iframe</i>&gt;</h2>
-            <p>
-                Usada para incorporar outro documento (como site, áudio ou vídeo) ao arquivo HTML.
+        <div class="b4">
+            <h2 id="tagvid">Tag &lt;<i>video</i>&gt;</h2>
+                <p>
+                    Podemos também fazer <b>inserção de <ins>vídeos</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
+                </p>
                 <h3>Sintaxe:</h3>
-                    <b>&lt;iframe src="URL" height="altura em pixels" width="largura em pixels" title="título"&gt;&lt;/iframe&gt;</b>
-                    <br>
-                    <img src="img/iframe.png" width="49%" height="49%">
-            </p>
-
-            <h3 id="site">Anexando outro site:</h3>
-                <iframe src="https://irati.ifpr.edu.br" height="300" widht="300"></iframe>
-
-            <h3 id="audio">Anexando áudio ao site:</h3>
-            <p>
-                Muito útil para <b>podcasts</b>!!!
-            </p>
-            <iframe src="https://open.spotify.com/embed/track/7BECNKQnIHCREUGA0Zty7g" width="300" height="300" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
-
-            <h3 id="video">Anexando vídeo ao site:</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/dqE50LUi1xI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        <h2 id="tagvid">Tag &lt;<i>video</i>&gt;</h2>
-            <p>
-                Podemos também fazer <b>inserção de <ins>vídeos</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
-            </p>
-            <h3>Sintaxe:</h3>
-            <img src="img/sin_video.png" width="45%" height="45%">
-            <br>
-            <video poster="vídeo/Bike.jpg" height="45%" width="45%" controls> <!--CONTROLS para play,volume-->
-                <source src="vídeo/Bike.mp4"  type="video/mp4"> 
-                <source src="vídeo/Bike.webm" type="video/webm">
-                <source src="vídeo/Bike.ogv"  type="video/ogv">
-
-                <!-- O HTML5 NOS DÁ A POSSIBILIDADE DE CARREGAR OUTROS VÍDEOS CASO O PRIMEIRO FALHE.-->
-            </video>
-        
-        <h2 id="tagaud">Tag &lt;<i>audio</i>&gt;</h2>
-            <p>
-                Assim como vídeos podemos também fazer <b>inserção de <ins>áudios</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
+                <img src="img/sin_video.png" width="45%" height="45%">
                 <br>
-                Existe uma <b><ins>biblioteca do youtube</ins> com áudios sem direitos autorais</b>.
-            </p>
-            <h3>Sintaxe:</h3>
-            <img src="img/sin_audio.png" width="40%" height="40%">
-            <br>
-            <audio preload="metadata" controls>
-                <source src="áudio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
-                <source src="áudio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
-                <source src="áudio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
-
-                <!-- WAV é um tipo de arquivo sem compactação (beeem grande) -->
-            </audio>
+                <video poster="vídeo/Bike.jpg" height="45%" width="45%" controls> <!--CONTROLS para play,volume-->
+                    <source src="vídeo/Bike.mp4"  type="video/mp4">
+                    <source src="vídeo/Bike.webm" type="video/webm">
+                    <source src="vídeo/Bike.ogv"  type="video/ogv">
+                    <!-- O HTML5 NOS DÁ A POSSIBILIDADE DE CARREGAR OUTROS VÍDEOS CASO O PRIMEIRO FALHE.-->
+                </video>
+        </div>
         
-        <h2 id="tagpic">Tag &lt;<i>picture</i>&gt;</h2>
-            <p>
-                Esta tag possui a função de <b>agrupar várias imagens</b> com uma função de renderizar a imagem na resolução mais adequada possível para o dispositivo do usuário.
-            </p>
-            <h3>Sintaxe:</h3>
-            <img src="img/sin_picture.png" width="43%" height="43%">
-            <br>
-            <picture>
-                <!-- <source media> SERVE PARA REDIMENSIONAR A IMAGEM CASO O DISPOSITIVO TENHA UMA TELA PEQUENA, CHAMA UMA OUTRA IMAGEM COM RESOLUÇÃO MENOR.--> 
-                <!-- RESPONSIVIDADE = se adequar ao dispositivo.  -->  
-                <source media="(max-width:500px)"  srcset="img/bike_110.jpg"> 
-                <source media="(max-width:700px)"  srcset="img/bike_320.jpg">
-                <source media="(max-width:1000px)" srcset="img/bike_640.jpg">
-                <img src="img/bike_full.jpg" alt="Mtb Por-do-Sol">          
-            </picture>
+        <div class="b1">
+            <h2 id="tagaud">Tag &lt;<i>audio</i>&gt;</h2>
+                <p>
+                    Assim como vídeos podemos também fazer <b>inserção de <ins>áudios</ins> a partir da máquina local ou de um servidor</b> contratado para a hospedagem.
+                    <br>
+                    Existe uma <b><ins>biblioteca do youtube</ins> com áudios sem direitos autorais</b>.
+                </p>
+                <h3>Sintaxe:</h3>
+                <img src="img/sin_audio.png" width="40%" height="40%">
+                <br>
+                <audio preload="metadata" controls>
+                    <source src="áudio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                    <source src="áudio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                    <source src="áudio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+                    <!-- WAV é um tipo de arquivo sem compactação (beeem grande) -->
+                </audio>
+        </div>
+        
+        <div class="b4">
+            <h2 id="tagpic">Tag &lt;<i>picture</i>&gt;</h2>
+                <p>
+                    Esta tag possui a função de <b>agrupar várias imagens</b> com uma função de renderizar a imagem na resolução mais adequada possível para o dispositivo do usuário.
+                </p>
+                <h3>Sintaxe:</h3>
+                <img src="img/sin_picture.png" width="43%" height="43%">
+                <br>
+                <picture>
+                    <!-- <source media> SERVE PARA REDIMENSIONAR A IMAGEM CASO O DISPOSITIVO TENHA UMA TELA PEQUENA, CHAMA UMA OUTRA IMAGEM COM RESOLUÇÃO MENOR.-->
+                    <!-- RESPONSIVIDADE = se adequar ao dispositivo.  -->
+                    <source media="(max-width:500px)"  srcset="img/bike_110.jpg">
+                    <source media="(max-width:700px)"  srcset="img/bike_320.jpg">
+                    <source media="(max-width:1000px)" srcset="img/bike_640.jpg">
+                    <img src="img/bike_full.jpg" alt="Mtb Por-do-Sol">
+                </picture>
+        </div>
 
     </body>
     </html>
