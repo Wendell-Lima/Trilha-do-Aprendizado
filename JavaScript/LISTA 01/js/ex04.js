@@ -1,11 +1,15 @@
-var n , aux, i;
+// 0 1 1 2 3 5 8 13
 
-n = parseInt(prompt("Quantos elementos deseja gerar?"));
+var q;
+var soma = 0;
+var p = 0;
+var u = 1;
 
-parseInt(aux);
-aux = 0;
+q = parseInt(prompt("Digite quantos elementos do fibonacci deseja gerar: "));
 
-for(i=0 ;i<n;i++){
-    if()
-    
+for(var i=0; i<q ; i++){
+    document.write("<h2>"+p+"</h2>")
+    soma = p + u;
+    p = u;
+    u = soma;
 }
