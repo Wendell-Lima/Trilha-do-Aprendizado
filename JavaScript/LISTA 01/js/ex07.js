@@ -1,8 +1,6 @@
 //Elabore um script em que seja possível entrar com dados: idade e sexo de 5
 //pessoas.
 
-var m1,m2,m3,m4,m5,f1,f2,f3,f4,f5;
-var id1,id2,id3,id4,id5,id6,id7,id8,id9,id10;
 var contm = 0,contf = 0,contmaior = 0,contmenor = 0,contmm = 0,contmf = 0;
 var idade,sexo;
 var maiorm,maiorf,menorm,menorf;
@@ -13,65 +11,77 @@ for(var i=1; i<6; i++)
     sexo = prompt("Digite o sexo da "+i+"ª pessoa: \nM --> Masculino\nF --> Feminino");
     idade = parseInt(prompt("Digite a idade da "+i+"ª pessoa: "));
 
-
     if(i==1 & sexo=='M'){
         contm++; // contador de quantos homens tem.
-        id1=idade;
         maiorm = idade;
         menorm = idade;
     }
     else if(i==1 & sexo=='F'){
         contf++;
-        id6=idade;
-
         maiorf = idade;
         menorf = idade;
-        
     }
 
     if(i==2 & sexo=='M'){
         contm++; 
-        id2=idade;
-        if(maiorf != 0){
+
+        if(maiorm == undefined){
             maiorm = idade;
             menorm = idade;
         }
     }
     else if(i==2 & sexo=='F'){
         contf++;
-        id7=idade;
-        if(maiorm != 0){
+
+        if(maiorf == undefined){
             maiorf = idade;
             menorf = idade;
         }
     }
     
-
     if(i==3 & sexo=='M'){
-        contm++; 
-        id3=idade;
+        contm++;
+        if(maiorm == undefined){
+            maiorm = idade;
+            menorm = idade;
+        } 
     }
     else if(i==3 & sexo=='F'){
         contf++;
-        id8=idade;
+        if(maiorf == undefined){
+            maiorf = idade;
+            menorf = idade;
+        }
     }
     
     if(i==4 & sexo=='M'){
-        contm++; 
-        id4=idade;
+        contm++;
+        if(maiorm == undefined){
+            maiorm = idade;
+            menorm = idade;
+        } 
     }
     else if(i==4 & sexo=='F'){
         contf++;
-        id9=idade;
+        if(maiorf == undefined){
+            maiorf = idade;
+            menorf = idade;
+        }
     }
 
     if(i==5 & sexo=='M'){
-        contm++; 
-        id5=idade;
+        contm++;
+        if(maiorm == undefined){
+            maiorm = idade;
+            menorm = idade;
+        } 
     }
     else if(i==5 & sexo=='F'){
         contf++;
-        id10=idade;
+        if(maiorf == undefined){
+            maiorf = idade;
+            menorf = idade;
+        }
     }
 
 
@@ -98,10 +108,10 @@ for(var i=1; i<6; i++)
     }
 
     if(idade>=18 & sexo=='M'){
-        contmm++;
+        contmm++; // cont de quantos HOMENS maiores de idade que tem.
     }
     if(idade>=18 & sexo=='F'){
-        contmf++;
+        contmf++; // cont de quantas MULHERES maiores de idade que tem.
     } 
 }
 
