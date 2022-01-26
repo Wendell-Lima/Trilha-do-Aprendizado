@@ -67,6 +67,7 @@ for(i=0;i<4;i++)
     }
     console.log("Emenor: "+emenor+"\nEmaior: "+emaior);
 }
+
 if(i==4 & numero != na)
 {
     alert(nome+" suas chances acabaram.\nO valor correto seria: "+na);
