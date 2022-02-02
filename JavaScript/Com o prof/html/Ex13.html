@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <h1>Formulários HTML</h1>
+
+    <p>
+        Formulários HTML, são um método de realizar a entrade de dados de usuários em páginas HTML. Podem ser de vários tipos: texto, e-mail, radiobutton, checkboxes, botões, dentre outros.
+    </p>
+
+    <form>
+        <label for="nome">Nome Completo</label>
+        <input  type="text" id="nome" placeholder="Digite seu nome" />
+
+        <input type="radio" id="solteiro" value="solteiro"/>
+        <label for="solteiro">Solteiro</label>
+        <input type="radio" id="casado" value="casado"/>
+        <label for="casado">Casado</label><br><br>
+        <input type="button" value="Enviar">
+    </form>
+
+    <!-- DOM -> DOCUMENT OBJECT MODEL
+    
+        document.getElementByID("ID") ACESSA O ELEMENTO ID QUE FOI DEFINIDO PELO PARAMETRO ID
+
+        documento.getElementsByName("Tag") ACESSA TODOS OS ELEMENTOS NO PARAMETRO TAG E RETORNA UMA ARRAY CUJOS ITENS FAZEM REFERENCIA AOS ELEMENTOS DESSE TIPO
+    
+        innerHTML = "O que será exibido" permite que se inspecione ou se defina o conteúdo HTML.
+    
+    -->
+
+</body>
+</html>
