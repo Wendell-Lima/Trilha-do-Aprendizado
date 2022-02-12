@@ -20,7 +20,7 @@ for(var i=0; i<lista.length; i++){
     document.write("<h2>"+lista[i]+"</h2>");
 }
 
-lista.push("84500-000"); // push = adiciona um valor na ultima posição.
+lista.push("84500-000"); // push = adiciona um valor na ULTIMA posição.
 alert(lista);
 lista.pop(); // pop = remove o ÚLTIMO elemento da lista.
 alert(lista);
