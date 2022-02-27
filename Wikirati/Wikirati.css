@@ -1,0 +1,134 @@
+table, th, td{
+    
+    border: 2px solid #FFE5EC;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+th,td{
+    padding: 4px;
+    vertical-align: bottom;
+}
+span{
+    font-weight: bold;
+    font-weight:lighter;
+}
+
+body{
+    background-color: #25283D;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1#p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #CE1483;
+    border: 2.5px solid rgb(255, 255, 255);
+    height:40px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1#t1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #CE1483;
+    border: 2.5px solid rgb(255, 255, 255);
+    height: 40px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.b1{
+    background-color: #2a1464;
+    border: 2px solid whitesmoke;
+    
+    margin: 20px;
+    padding: 12px;
+}
+.bloco1{
+    background-color: #631041;
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    padding: 12px;
+    text-align: left;
+}
+.bloco2{
+    background-color: #631041;
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    padding: 12px;
+    text-align: left;
+}
+.bloco3{
+    background-color: #631041;
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    padding: 12px;
+    text-align: left;
+}
+.bloco4{
+    background-color: rgb(143, 2, 2);
+    border: 2px solid whitesmoke;
+    
+    margin: 20px;
+    padding: 12px;
+}
+p#p32{
+    background-color: rgb(131, 92, 8) ;
+    margin-left: 480px;
+    margin-right: 480px;
+    border: white solid 2px;
+}
+.canto{
+    text-align: center;
+}
+.img{
+    border-image:fill;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p1{
+    background-color: #631041;
+    border: 2px solid whitesmoke;
+    margin: 20px;
+    padding: 12px;
+    text-align: left;
+}
+
+.table{
+    text-align: center;
+    margin: auto;
+    background-color: #3b9b4e;
+    width: 21% !important;
+}
+.fote{
+    margin-right: auto;
+}
+.pseudo{
+    background-color: rgb(223, 161, 29);
+}
+.pseudo > span{
+    display: none;
+}
+.pseudo:hover >span{
+    display:block
+}
+a:link{
+    color: #faa302;
+    text-decoration: rgb(184, 119, 0);
+}
+a:hover{
+    color: red;
+    
+}
+a:visited{
+    font-style:italic;
+    color: rgb(245, 91, 225);
+}
+a:active{
+    color: greenyellow;
+}
