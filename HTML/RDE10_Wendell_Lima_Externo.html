@@ -5,26 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS</title>
-        <style>
-            body{
-                color: white;
-                font-family: Arial, Helvetica, sans-serif;
-                background-color:darkcyan;
-            }
-            h1{
-                background-color: darkgoldenrod;
-                color:rgb(177, 47, 47);
-                text-align: center;
-            }
-            h2{
-                color:tomato;
-            }
-            table, th, td 
-            {
-              border:2px solid white;
-            }
-        </style>
-
+        <link rel="stylesheet" href="/css/style.css">
+        
     </head>
     <body>
         <!-- COLOR: define a cor da letra, BACKGROUND-COLOR: define a cor de fundo, TEXT-ALIGN: define em que posição o texto deve ficar.-->
@@ -66,8 +48,8 @@
             }</code>
 
         </p>    
-        <img src="img/sin_css.png" widht="100" height="100">
-        <img src="img/sin_p.png" widht="99" height="99">
+        <img src="/img/sin_css.png" widht="100" height="100">
+        <img src="/img/sin_p.png" widht="99" height="99">
 
         <h2>Formas de Utilizar CSS</h2>
         <p>
@@ -80,31 +62,29 @@
         </p>
         <table>
             <tr> 
-                <th colspan="2" style="color:indianred">Formas de Utilizar CSS</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
+                <th colspan="2" style="color:gray;">Formas de Utilizar CSS</th> <!-- <th> FICA NO MEIO DA CÉLULA NEGRITADO. -->
             </tr>
             <tr>
-                <th rowspan="2" colspan="1" style="color:red"><strong>Inline</strong></th><!-- ROWSPAN MESCLAR COLUNA--> <!-- COLSPAN MESCLAR LINHAS-->
+                <th rowspan="2" colspan="1" style="color:gray;"><strong>Inline</strong></th><!-- ROWSPAN MESCLAR COLUNA--> <!-- COLSPAN MESCLAR LINHAS-->
                 <td>Os códigos CSS são definidos <b>dentro de uma tag HTML.</b> <br> Afetam somente a tag em que foi definida.</td>              
             </tr>
-           
                 <tr>
                 </tr>
                 <tr>
                 </tr>
             <tr>
-                <th rowspan="2" colspan="1" style="color:red"><strong>Incorporado</strong></th>
+                <th rowspan="2" colspan="1" style="color:gray;"><strong>Incorporado</strong></th>
                 <td>Os códigos CSS são definidos no cabeçalho, <b>dentro de uma tag head.</b> 
                 <br>
                 Afetam somente o documento em que foi definido.
                 </td>
             </tr>
-           
                 <tr>
                 </tr>
                 <tr>
                 </tr>
             <tr>
-                <th rowspan="2" colspan="1" style="color:red"><strong>Externo</strong></th>
+                <th rowspan="2" colspan="1" style="color:gray;"><strong>Externo</strong></th>
                 <td>Os códigos CSS são definidos <b>em um arquivo externo.</b>
                 <br>
                 Afetam todos os documentos que estão linkados ao CSS.
