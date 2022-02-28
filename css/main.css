@@ -1,53 +1,73 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    background-image: linear-gradient(to right,#181414,#1A535C);
-    width: 98%;
-    color: #F7FFF7;
-    margin: 0 auto;
-    
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
 
-header{
-    background-color: #141200;
-    border-radius: 10px;
-    margin-top: 7px;
-    margin-left: 50px;
-    width: 92.5%;
-    border: inset 5px rgb(116, 115, 115);
-}
-
-.logo{
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 40px;
-    padding-left: 30px;
-    
-}
-
-.navegacao{
-    overflow: hidden; /*Ajusta o conteúdo no box e esconde a barra de rolagem*/
-    margin-left: 100px;
-    padding: 1px;
-}
-
-.navegacao a{
-    font-size: 15px;
-    float: right;
-    display: block;
-    border-radius: 2px;
-    color: #09e2ff;
+*{
+    font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    text-align: right;
-    padding: 10px;
 }
-.navegacao a:hover{
-    border-radius: 2px;
-    background-color: #353534fb;
-    border-bottom: 1px solid white;
+body{
+    font-size: 100%;
+    background-color: #575d63;
+    color: #fff7f7;
 }
 
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: #34383b;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    font-size: 23px;    
+    gap: 70px;
+}
+
+.cabecalho-navegacao-item{
+    color: #fa5a2a;
+}
+
+.cabecalho-navegacao-item:hover {
+    border-bottom: 0.4px solid #e7edff;
+    
+}  
+.conteudo-sobre{
+    font-size:20px;
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.conteudo-html{
+    float:left;
+    text-align:center;
+    width:20%;
+    margin-left: 150px;
+}
+.conteudo-git{
+    float:left;
+    text-align:center;
+    width:20%;
+}
+.conteudo-css{
+    float:left;
+    text-align:center;
+    width:20%;
+
+}
+.conteudo-js{
+    float:left;
+    text-align:center;
+    width:20%;
+}
 .t1{
     color: rgb(0, 223, 252);
     text-align: center;
@@ -58,19 +78,6 @@ header{
     text-align: center;
     margin-top: 10px; 
 }
-
-.b1{
-    background-color: #575757;
-    padding: 15px;
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-right: 55px;
-    text-align: justify;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.562);
-    border: outset 1px white;
-}
-
 
 .b2{
     float: left ;
@@ -144,7 +151,7 @@ header{
     font-size: 20px;
 }
 h1{
-    color: rgba(0, 223, 252, 0.774);
+    color: rgba(56, 230, 253, 0.774);
 }
 h2{
     color: rgba(255, 196, 0, 0.74);
@@ -157,13 +164,14 @@ h3{
 ol{
     list-style:circle;
 }
-.rodape{
-    display: flex;
-    
-    color: darkgray;
-    font-size: 15px;
-    text-align: left;
-    padding: 20px;
-    
+.rodape{    
+    display: block;
+    align-items: center;
+    text-align: center;
+    color: rgb(201, 199, 199);
+    font-size: 20px;
+    padding: 20px 0px 60px 0px;
+    margin-top: 300px;
+    background-color: #34383b;
 }
 
