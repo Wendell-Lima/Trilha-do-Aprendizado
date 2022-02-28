@@ -21,6 +21,7 @@ body{
     padding-top:20px;
     padding-bottom:10px;
     background-color: #34383b;
+    border-bottom: 1px groove white;
 }
 
 .cabecalho-navegacao {
@@ -51,6 +52,7 @@ body{
     text-align:center;
     width:20%;
     margin-left: 150px;
+    
 }
 .conteudo-git{
     float:left;
@@ -170,8 +172,9 @@ ol{
     text-align: center;
     color: rgb(201, 199, 199);
     font-size: 20px;
-    padding: 20px 0px 60px 0px;
+    padding: 5px 0px 42px 0px;
     margin-top: 300px;
     background-color: #34383b;
+    border-top: 1px groove white;
 }
 
