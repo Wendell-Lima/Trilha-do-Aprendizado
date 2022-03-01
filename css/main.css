@@ -237,13 +237,13 @@ ol{
 }
 .titulo-css{
     display: flex;
-    color: rgb(255, 234, 47);
+    color:rgb(43, 120, 243);
     margin-left:492px;
     margin-bottom: 20px;
 }
 .titulo-js{
     display: flex;
-    color: rgb(255, 79, 138);
+    color: rgb(255, 234, 47);
     margin: 15px 0px 0px 650px;
 }
 
