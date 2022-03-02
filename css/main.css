@@ -147,7 +147,7 @@ body{
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-    margin:20px 235px 20px 235px;
+    margin:20px 235px 80px 235px;
     gap: 10px;
 }
 .bloco-conteudo a{
